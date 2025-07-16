@@ -32,7 +32,7 @@
   align-items: flex-start;
   justify-content: space-between;
   padding: 0 100px;
-  background-color: red;
+  /* background-color: red; */
 }
 .swiper-content-subtitle {
   color: #fff;
@@ -60,7 +60,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 .swiper-content-title-desc-txt {
   display: flex;

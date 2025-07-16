@@ -5,11 +5,12 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: clamp(80px, 12vh, 120px);
+  /* height: clamp(80px, 12vh, 120px); */
+  height: 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 100px 28px;
+  padding: 0 100px;
   z-index: 2;
 }
 .logo {
