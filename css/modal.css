@@ -16,7 +16,7 @@
   position: relative;
   width: 100%;
   height: 100%;
-  padding-bottom: 6rem;
+  /* padding-bottom: 6rem; */
   /* overflow-y: auto; */
   overflow: hidden;
   display: flex;
@@ -90,7 +90,7 @@
   align-items: center;
   min-width: 50px;
   min-height: 32px;
-  padding: 0.5rem 1.2rem;
+  padding: 0.7rem 1.5rem;
   /* color: var(--gray-medium); */
   /* border: 1px solid #aaa; */
   background-color: var(--gray-medium);
@@ -98,7 +98,7 @@
 }
 
 .modal-nav-logo .login-btn a span {
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-weight: 400;
   /* color: var(--gray-dark); */
   color: #fff;
@@ -120,7 +120,7 @@
 
 .modal-menu-wrap {
   position: relative;
-  margin-top: 54px;
+  margin-top: 24px;
   overflow-y: auto;
   scroll-behavior: smooth;
 }
@@ -166,7 +166,7 @@
 .modal-menu-nav {
   position: sticky;
   top: 0;
-  padding: 1.6rem 2rem;
+  padding: 1rem 2rem;
   background-color: #fff;
   z-index: 3;
 }
@@ -189,10 +189,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 1.5rem;
+  padding: 0.7rem 1.5rem;
   border-radius: 2rem;
   /* background-color: #f7f8f9; */
-  font-size: 1.6rem;
+  font-size: 1rem;
   color: var(--gray-light);
   border: 1px solid #aaa;
 }
@@ -204,12 +204,12 @@
 
 .modal-menu-list {
   position: relative;
-  margin-top: 1.4rem;
+  margin-top: 1.2rem;
   padding: 0 2.4rem;
 }
 
 .modal-menu-list > div {
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
 
 .modal-menu-list > div:first-child {
@@ -222,7 +222,7 @@
   padding-bottom: 1.1rem;
   border-bottom: 1px solid #5a5b63;
   font-family: "SS-bold";
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -274,8 +274,8 @@
 .modal-submenu > li > a {
   position: relative;
   width: 100%;
-  padding: 1.2rem 0 1.2rem 1.5rem;
-  font-size: 1.6rem;
+  padding: 1rem 0 1rem 1.2rem;
+  font-size: 1.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -286,7 +286,7 @@
   display: block;
   width: 14px;
   height: 14px;
-  background: url("../images/common/ico-common-arrow-14.svg") no-repeat center;
+  background: url("../img/icon/ico-common-arrow-14.svg") no-repeat center;
   background-size: contain;
   transform: rotate(90deg);
   transition: transform 0.5s;
@@ -315,8 +315,8 @@
   position: relative;
   width: 100%;
   padding: 1rem 0 1rem 3.1rem;
-  line-height: 2.4rem;
-  font-size: 1.6rem;
+  line-height: 1.5rem;
+  font-size: 1rem;
 }
 
 /* 모달 푸터 */
