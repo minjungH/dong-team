@@ -180,7 +180,7 @@ body {
 .desc.item {
   color: #000;
   font-family: "Pretendard", "Noto Sans KR", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: normal;
 }
@@ -605,4 +605,56 @@ nav.location {
   font-size: 18px;
   font-weight: 700;
   margin-top: 5px;
+}
+
+.box04 {
+  width: 100%;
+  max-width: 1920px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 100px;
+  gap: 50px;
+  background: #fff;
+}
+.box04 > .txt {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.box04 > .txt .title {
+  font-size: 2.3rem;
+  font-weight: 700;
+  text-align: center;
+}
+.box04 > .txt .more {
+  position: absolute;
+  right: 100px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #666;
+}
+.box04 .contents {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.box04 .contents .content {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 12px;
+}
+.box04 .contents .content .img-2 {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
 }
