@@ -160,3 +160,48 @@
   transition: left 0.25s linear;
 }
 /* 시간초 비행기 end */
+
+/* 일시정지 */
+.swiper-toggle-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}
+.swiper-toggle-btn::before,
+.swiper-toggle-btn::after {
+  content: "";
+  position: absolute;
+  top: 6px;
+  bottom: 6px;
+  width: 4px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+/* Pause 아이콘 (두 줄) */
+.swiper-toggle-btn::before {
+  left: 8px;
+}
+.swiper-toggle-btn::after {
+  right: 8px;
+}
+/* ▶️ 재생 아이콘 (삼각형) 상태 */
+.swiper-toggle-btn.playing::before {
+  left: 12px;
+  top: 6px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 12px solid #fff;
+  background: none;
+}
+.swiper-toggle-btn.playing::after {
+  display: none;
+}
+/* 일시정지 end */
