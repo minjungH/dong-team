@@ -1,3 +1,21 @@
+.reservation {
+  position: relative;
+  width: 372px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 16px;
+  gap: 16px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #000;
+}
+.reservation .txt {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
 .btn-where {
   position: relative;
   display: flex;
@@ -10,6 +28,7 @@
   border-radius: 4px;
   border: 1px solid #aaa;
   background: #fff;
+  cursor: pointer;
 }
 .btn-where span {
   color: #000;
@@ -22,7 +41,6 @@
   right: 20px;
   top: 50%;
   transform: translateY(-50%);
-  cursor: pointer;
 }
 .btn-where .submenu {
   width: 100%;
@@ -38,11 +56,13 @@
   border-radius: 4px;
   border: 1px solid var(--rouge-red, #e24666);
   background: #fff;
+  z-index: 999;
 }
 .btn-where .submenu.show {
-  display: block;
+  display: flex;
 }
 .btn-where .submenu .title {
+  position: relative;
   display: flex;
   align-items: center;
   align-self: stretch;
@@ -57,8 +77,15 @@
   flex: 1 0 0;
   border: 1px solid #ddd;
   background-color: #f7f7f7;
+  color: #aaa;
+  cursor: pointer;
+}
+.btn-where .submenu .title .item:hover {
+  color: #333;
+  border: 1px solid #999;
 }
 .btn-where .submenu .title .on {
+  color: #111;
   border: 1px solid #000;
   background-color: #fff;
 }
@@ -86,6 +113,10 @@
   font-family: "Pretendard";
   font-size: 14px;
   font-weight: 400;
+  cursor: pointer;
+}
+.btn-where .submenu .select .left-select li:hover {
+  color: #111;
 }
 .btn-where .submenu .select .right-select {
   flex: 1 0 0;
@@ -94,4 +125,173 @@
   align-items: flex-start;
   align-self: stretch;
   border: 1px solid #aaa;
+}
+
+.btn-from {
+  position: relative;
+  display: flex;
+  width: 340px;
+  height: 50px;
+  padding: 0px 20px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  background: #fff;
+  cursor: pointer;
+}
+.btn-from span {
+  color: #000;
+  font-family: "Pretendard";
+  font-size: 16px;
+  font-weight: 400;
+}
+.btn-from .arrow {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.btn-from .submenu {
+  width: 100%;
+  display: none;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  left: 0;
+  bottom: -255px;
+  border-radius: 4px;
+  border: 1px solid var(--rouge-red, #e24666);
+  background: #fff;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 999;
+}
+.btn-from .submenu.show {
+  display: flex;
+}
+.btn-from .submenu li {
+  display: flex;
+  padding: 8px 20px;
+  align-items: center;
+  align-self: stretch;
+}
+.btn-from .submenu li.on {
+  display: flex;
+  padding: 8px 20px;
+  align-items: center;
+  align-self: stretch;
+  background: #ccc;
+}
+.btn-from .submenu li:hover {
+  background: #eee;
+}
+
+.btn-when {
+  position: relative;
+  display: flex;
+  /* display: none; */
+  width: 340px;
+  height: 50px;
+  padding: 0px 20px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  background: #fff;
+  cursor: pointer;
+}
+
+.btn-when span {
+  color: #000;
+  font-family: "Pretendard";
+  font-size: 16px;
+  font-weight: 400;
+}
+.btn-when .arrow {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.btn-where .arrow,
+.btn-from .arrow,
+.btn-when .arrow {
+  transition: transform 0.3s;
+}
+.btn-where .arrow.rotate,
+.btn-from .arrow.rotate,
+.btn-when .arrow.rotate {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.ticket {
+  position: relative;
+  display: flex;
+  height: 50px;
+  padding: 0px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+}
+.ticket div {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  background: #fff;
+  cursor: pointer;
+}
+.ticket div p {
+  color: #aaa;
+  font-family: "Pretendard", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.ticket div svg path {
+  fill: #aaaaaa;
+}
+.ticket div.on:first-child {
+  border: 1px solid var(--rouge-red, #e24666);
+}
+.ticket div.on:first-child svg path {
+  fill: #000;
+}
+.ticket div.on:first-child p {
+  color: #000;
+}
+.ticket div.on:last-child {
+  border: 1px solid var(--charcoal-blue, #2d4256);
+}
+.ticket div.on:last-child svg path {
+  fill: #000;
+}
+.ticket div.on:last-child p {
+  color: #000;
+}
+.click-search {
+  display: flex;
+  height: 50px;
+  padding: 0px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 4px;
+  background: #333;
+  color: #fff;
+  font-family: "Pretendard";
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
 }
