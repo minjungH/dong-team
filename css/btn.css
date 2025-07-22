@@ -1,5 +1,9 @@
 .reservation {
-  position: relative;
+  position: absolute;
+  top: 15.1vw;
+  left: 70.31vw;
+  z-index: 2;
+
   width: 372px;
   display: flex;
   flex-direction: column;
@@ -10,11 +14,16 @@
   background: #fff;
   border: 1px solid #000;
 }
-.reservation .txt {
+.reservation > .re-txt {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 0;
+}
+.reservation > .re-txt > p,
+.reservation > .re-txt > h2 {
+  font-size: 28px;
+  text-align: left;
 }
 .btn-where {
   position: relative;

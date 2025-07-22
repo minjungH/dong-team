@@ -14,9 +14,14 @@
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/img-slide.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/modal.css" />
+    <link rel="stylesheet" href="css/btn.css" />
+    <link rel="stylesheet" href="css/calendar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <script src="js/swiper.js" defer></script>
     <script src="js/modal.js" defer></script>
+    <script src="js/btn.js" defer></script>
   </head>
   <body>
     <div class="wrap">
@@ -105,8 +110,909 @@
               <button class="swiper-toggle-btn" aria-label="슬라이드 일시정지"></button>
             </div>
           </div>
+          <div class="reservation">
+            <div class="re-txt">
+              <p>고객님,</p>
+              <h2>어떤 여행을 꿈꾸시나요?</h2>
+            </div>
+            <div class="btn-where">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_247_1890)">
+                  <path
+                    d="M23.384 0.612137C24.2142 1.44239 24.2142 2.77924 23.384 3.59543L17.9099 9.06948L20.8932 22.0018L18.909 24L13.449 13.5444L7.96091 19.0325L8.46751 22.5084L6.96179 24L4.4851 19.5251L-0.00390625 17.0343L1.48774 15.5145L5.00577 16.0352L10.4517 10.5893L-0.00390625 5.08707L1.99433 3.1029L14.9266 6.08619L20.4007 0.612137C21.1887 -0.204046 22.5959 -0.204046 23.384 0.612137Z"
+                    fill="black"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_247_1890">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <span>어디로 떠나시나요?</span>
+              <div class="arrow">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M6.22234 7.68192L0 1.53617L1.55531 0L7 5.37767L12.4447 0L14 1.53617L7.77766 7.68192C7.57139 7.88559 7.29166 8 7 8C6.70834 8 6.42861 7.88559 6.22234 7.68192Z"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+              <div class="submenu">
+                <div class="title">
+                  <div class="item on">국내</div>
+                  <div class="item">해외</div>
+                </div>
+                <div class="select">
+                  <ul class="left-select">
+                    <li>제주도</li>
+                    <li>울릉도</li>
+                    <li>강원</li>
+                    <li>경상</li>
+                    <li>전라</li>
+                    <li>충청</li>
+                    <li>서울/인천/경기</li>
+                  </ul>
+                  <ul class="right-select"></ul>
+                </div>
+              </div>
+            </div>
+            <div class="btn-from">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="24"
+                viewBox="0 0 16 24"
+                fill="none"
+              >
+                <path
+                  d="M8 0C3.57714 0 0 3.756 0 8.4C0 14.7 8 24 8 24C8 24 16 14.7 16 8.4C16 3.756 12.4229 0 8 0ZM8 11.4C7.24224 11.4 6.51551 11.0839 5.9797 10.5213C5.44388 9.95871 5.14286 9.19565 5.14286 8.4C5.14286 7.60435 5.44388 6.84129 5.9797 6.27868C6.51551 5.71607 7.24224 5.4 8 5.4C8.75776 5.4 9.48449 5.71607 10.0203 6.27868C10.5561 6.84129 10.8571 7.60435 10.8571 8.4C10.8571 9.19565 10.5561 9.95871 10.0203 10.5213C9.48449 11.0839 8.75776 11.4 8 11.4Z"
+                  fill="black"
+                />
+              </svg>
+              <span>어디서 출발하시나요?</span>
+              <div class="arrow">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M6.22234 7.68192L0 1.53617L1.55531 0L7 5.37767L12.4447 0L14 1.53617L7.77766 7.68192C7.57139 7.88559 7.29166 8 7 8C6.70834 8 6.42861 7.88559 6.22234 7.68192Z"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+              <ul class="submenu">
+                <li class="on">전체</li>
+                <li>인천/김포</li>
+                <li>부산</li>
+                <li>대구</li>
+                <li>청주</li>
+                <li>제주</li>
+                <li>양양</li>
+              </ul>
+            </div>
+            <div class="btn-when">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M12 0C18.6276 0 24 5.3724 24 12C24 18.6276 18.6276 24 12 24C5.3724 24 0 18.6276 0 12C0 5.3724 5.3724 0 12 0ZM12 4.8C11.6817 4.8 11.3765 4.92643 11.1515 5.15147C10.9264 5.37652 10.8 5.68174 10.8 6V12C10.8001 12.3182 10.9265 12.6234 11.1516 12.8484L14.7516 16.4484C14.9779 16.667 15.281 16.7879 15.5957 16.7852C15.9103 16.7825 16.2113 16.6563 16.4338 16.4338C16.6563 16.2113 16.7825 15.9103 16.7852 15.5957C16.7879 15.281 16.667 14.9779 16.4484 14.7516L13.2 11.5032V6C13.2 5.68174 13.0736 5.37652 12.8485 5.15147C12.6235 4.92643 12.3183 4.8 12 4.8Z"
+                  fill="black"
+                />
+              </svg>
+              <span>언제 떠나시나요?</span>
+              <div class="arrow">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M6.22234 7.68192L0 1.53617L1.55531 0L7 5.37767L12.4447 0L14 1.53617L7.77766 7.68192C7.57139 7.88559 7.29166 8 7 8C6.70834 8 6.42861 7.88559 6.22234 7.68192Z"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+              <div class="submenu">
+                <div class="calendar-wrap">
+                  <div class="calendar-inner">
+                    <div class="title">
+                      <div class="text-wrapper">2025년 06월</div>
+                      <div class="weui-arrow-filled">
+                        <img class="vector" src="img/image.svg" />
+                      </div>
+                    </div>
+                    <div class="calendar">
+                      <div class="week">
+                        <div class="item"><div class="div">일</div></div>
+                        <div class="item"><div class="text-wrapper-2">월</div></div>
+                        <div class="item"><div class="text-wrapper-2">화</div></div>
+                        <div class="item"><div class="text-wrapper-2">수</div></div>
+                        <div class="item"><div class="text-wrapper-2">목</div></div>
+                        <div class="item"><div class="text-wrapper-2">금</div></div>
+                        <div class="item"><div class="div">토</div></div>
+                      </div>
+                      <div class="day">
+                        <div class="itembox">
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-3">1</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-3">2</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-3">3</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-3">4</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-3">5</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-3">6</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-3">7</div>
+                          </div>
+                        </div>
+                        <div class="itembox">
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-3">8</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-3">9</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-3">10</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-3">11</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-3">12</div>
+                          </div>
+                          <div class="item-2">
+                            <div class="text-wrapper-4">13</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-5">14</div>
+                          </div>
+                        </div>
+                        <div class="itembox">
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-5">15</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">16</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">17</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">18</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">19</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">20</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-5">21</div>
+                          </div>
+                        </div>
+                        <div class="itembox">
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-5">22</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">23</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">24</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">25</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">26</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">27</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-5">28</div>
+                          </div>
+                        </div>
+                        <div class="itembox">
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-5">29</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">30</div>
+                          </div>
+                          <div class="item-3">
+                            <div class="text-wrapper-4">0</div>
+                          </div>
+                          <div class="item-3">
+                            <div class="text-wrapper-4">0</div>
+                          </div>
+                          <div class="item-3">
+                            <div class="text-wrapper-4">0</div>
+                          </div>
+                          <div class="item-3">
+                            <div class="text-wrapper-4">0</div>
+                          </div>
+                          <div class="item-3">
+                            <div class="text-wrapper-5">0</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="calendar-inner">
+                    <div class="title">
+                      <div class="text-wrapper">2025년 07월</div>
+                      <div class="vector-wrapper">
+                        <img class="img" src="img/vector.svg" />
+                      </div>
+                    </div>
+                    <div class="calendar">
+                      <div class="week-2">
+                        <div class="item"><div class="div">일</div></div>
+                        <div class="item"><div class="text-wrapper-2">월</div></div>
+                        <div class="item"><div class="text-wrapper-2">화</div></div>
+                        <div class="item"><div class="text-wrapper-2">수</div></div>
+                        <div class="item"><div class="text-wrapper-2">목</div></div>
+                        <div class="item"><div class="text-wrapper-2">금</div></div>
+                        <div class="item"><div class="div">토</div></div>
+                      </div>
+                      <div class="day-2">
+                        <div class="itembox">
+                          <div class="item-3">
+                            <div class="text-wrapper-5">0</div>
+                          </div>
+                          <div class="item-3">
+                            <div class="text-wrapper-4">0</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">1</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">2</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">3</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">4</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-5">5</div>
+                          </div>
+                        </div>
+                        <div class="itembox">
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-5">6</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">7</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">8</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">9</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">10</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">11</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-5">12</div>
+                          </div>
+                        </div>
+                        <div class="itembox">
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-5">13</div>
+                          </div>
+                          <div class="item-4">
+                            <div class="text-wrapper-6">14</div>
+                          </div>
+                          <div class="item-5">
+                            <div class="text-wrapper-6">15</div>
+                          </div>
+                          <div class="item-5">
+                            <div class="text-wrapper-6">16</div>
+                          </div>
+                          <div class="item-5">
+                            <div class="text-wrapper-6">17</div>
+                          </div>
+                          <div class="item-5">
+                            <div class="text-wrapper-6">18</div>
+                          </div>
+                          <div class="item-5">
+                            <div class="text-wrapper-6">19</div>
+                          </div>
+                        </div>
+                        <div class="itembox">
+                          <div class="item-5">
+                            <div class="text-wrapper-6">20</div>
+                          </div>
+                          <div class="item-5">
+                            <div class="text-wrapper-6">21</div>
+                          </div>
+                          <div class="item-6">
+                            <div class="text-wrapper-6">22</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">23</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">24</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">25</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-5">26</div>
+                          </div>
+                        </div>
+                        <div class="itembox">
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-5">27</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">28</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">29</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">30</div>
+                          </div>
+                          <div class="div-wrapper">
+                            <div class="text-wrapper-4">31</div>
+                          </div>
+                          <div class="item-3">
+                            <div class="text-wrapper-4">0</div>
+                          </div>
+                          <div class="item-3">
+                            <div class="text-wrapper-5">0</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="select-date">
+                  <div class="date-frame">
+                    <div class="text-wrapper-7">여행 시작일</div>
+                    <div class="text-wrapper-4">2025.07.14(월) ~ 2025.07.22(화)</div>
+                  </div>
+                  <div class="date-frame-2">
+                    <div class="text-wrapper-8">선택완료</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ticket">
+              <div class="on">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  viewBox="0 0 36 36"
+                  fill="none"
+                >
+                  <path
+                    d="M34.7143 15.6C35.0553 15.6 35.3823 15.4736 35.6234 15.2485C35.8645 15.0235 36 14.7183 36 14.4V8.4C36 7.76348 35.7291 7.15303 35.2468 6.70294C34.7646 6.25286 34.1106 6 33.4286 6H2.57143C1.88944 6 1.23539 6.25286 0.753154 6.70294C0.270918 7.15303 0 7.76348 0 8.4V14.4C0 14.7183 0.135459 15.0235 0.376577 15.2485C0.617695 15.4736 0.944722 15.6 1.28571 15.6C1.9677 15.6 2.62175 15.8529 3.10399 16.3029C3.58623 16.753 3.85714 17.3635 3.85714 18C3.85714 18.6365 3.58623 19.247 3.10399 19.6971C2.62175 20.1471 1.9677 20.4 1.28571 20.4C0.944722 20.4 0.617695 20.5264 0.376577 20.7515C0.135459 20.9765 0 21.2817 0 21.6V27.6C0 28.2365 0.270918 28.847 0.753154 29.2971C1.23539 29.7471 1.88944 30 2.57143 30H33.4286C34.1106 30 34.7646 29.7471 35.2468 29.2971C35.7291 28.847 36 28.2365 36 27.6V21.6C36 21.2817 35.8645 20.9765 35.6234 20.7515C35.3823 20.5264 35.0553 20.4 34.7143 20.4C34.0323 20.4 33.3783 20.1471 32.896 19.6971C32.4138 19.247 32.1429 18.6365 32.1429 18C32.1429 17.3635 32.4138 16.753 32.896 16.3029C33.3783 15.8529 34.0323 15.6 34.7143 15.6ZM33.4286 22.644V27.6H24.4286V24H21.8571V27.6H2.57143V22.644C3.672 22.3755 4.64614 21.7741 5.3414 20.9338C6.03666 20.0934 6.41381 19.0617 6.41381 18C6.41381 16.9383 6.03666 15.9066 5.3414 15.0662C4.64614 14.2259 3.672 13.6245 2.57143 13.356V8.4H21.8571V12H24.4286V8.4H33.4286V13.356C32.328 13.6245 31.3539 14.2259 30.6586 15.0662C29.9633 15.9066 29.5862 16.9383 29.5862 18C29.5862 19.0617 29.9633 20.0934 30.6586 20.9338C31.3539 21.7741 32.328 22.3755 33.4286 22.644Z"
+                    fill="black"
+                  />
+                  <path d="M21.375 14.625H23.625V21.375H21.375V14.625Z" fill="black" />
+                </svg>
+                <p>교통편은<br />괜찮아요</p>
+              </div>
+              <div class="on">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  viewBox="0 0 36 36"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_1024_6085)">
+                    <path
+                      d="M5.03948 11.3935C5.03978 9.94633 5.41417 8.52381 6.12631 7.264C6.83845 6.00418 7.86416 4.94984 9.10391 4.2033C10.3436 3.45675 11.7553 3.04336 13.2019 3.00323C14.6485 2.9631 16.081 3.2976 17.3602 3.97426C18.6394 4.65093 19.722 5.64679 20.5029 6.86519C21.2838 8.08359 21.7364 9.48316 21.817 10.9281C21.8975 12.373 21.6031 13.8142 20.9625 15.1118C20.3218 16.4095 19.3566 17.5194 18.1605 18.3341C20.7363 19.2788 22.9705 20.9728 24.5754 23.198C26.1804 25.4232 27.0827 28.0777 27.1663 30.8201C27.1627 31.1158 27.0451 31.3986 26.8379 31.6096C26.6307 31.8205 26.35 31.9433 26.0544 31.9521C25.7589 31.961 25.4713 31.8553 25.2518 31.6572C25.0324 31.459 24.898 31.1837 24.8767 30.8888C24.7858 27.9145 23.5404 25.0925 21.4044 23.0208C19.2684 20.949 16.4096 19.7904 13.434 19.7904C10.4583 19.7904 7.59956 20.949 5.46356 23.0208C3.32755 25.0925 2.08214 27.9145 1.99124 30.8888C1.97596 31.1877 1.84422 31.4687 1.62423 31.6717C1.40425 31.8747 1.11353 31.9834 0.814342 31.9746C0.515159 31.9659 0.231313 31.8402 0.0236139 31.6247C-0.184086 31.4092 -0.299119 31.1209 -0.296842 30.8216C-0.213574 28.079 0.688618 25.4241 2.2936 23.1986C3.89859 20.9731 6.13291 19.2789 8.70897 18.3341C7.57802 17.5638 6.65248 16.5288 6.01293 15.3191C5.37337 14.1095 5.0392 12.7618 5.03948 11.3935ZM13.4347 5.28786C11.8154 5.28786 10.2624 5.93113 9.11739 7.07616C7.97236 8.22119 7.32909 9.77418 7.32909 11.3935C7.32909 13.0128 7.97236 14.5658 9.11739 15.7108C10.2624 16.8559 11.8154 17.4991 13.4347 17.4991C15.054 17.4991 16.607 16.8559 17.7521 15.7108C18.8971 14.5658 19.5404 13.0128 19.5404 11.3935C19.5404 9.77418 18.8971 8.22119 17.7521 7.07616C16.607 5.93113 15.054 5.28786 13.4347 5.28786ZM26.0886 11.3935C25.8638 11.3935 25.6429 11.4088 25.4262 11.4393C25.2749 11.4664 25.1196 11.4627 24.9697 11.4285C24.8198 11.3943 24.6784 11.3303 24.5538 11.2402C24.4292 11.1502 24.324 11.0359 24.2445 10.9043C24.165 10.7727 24.1129 10.6265 24.0911 10.4743C24.0694 10.3221 24.0785 10.1671 24.118 10.0185C24.1574 9.86993 24.2264 9.73081 24.3208 9.60947C24.4152 9.48813 24.5331 9.38704 24.6674 9.31224C24.8017 9.23744 24.9497 9.19046 25.1026 9.1741C26.6207 8.9546 28.1687 9.24614 29.503 10.0028C30.8373 10.7595 31.8821 11.9384 32.473 13.3539C33.0639 14.7694 33.1673 16.3413 32.7671 17.822C32.3668 19.3028 31.4855 20.6084 30.2618 21.5334C32.0605 22.3388 33.5878 23.6475 34.6592 25.3016C35.7307 26.9556 36.3007 28.8844 36.3003 30.8552C36.3003 31.1588 36.1797 31.45 35.965 31.6647C35.7503 31.8794 35.4591 32 35.1555 32C34.8519 32 34.5607 31.8794 34.346 31.6647C34.1313 31.45 34.0107 31.1588 34.0107 30.8552C34.0113 29.1518 33.4627 27.4935 32.4465 26.1264C31.4303 24.7594 30.0004 23.7562 28.3691 23.2659L27.554 23.0217V20.4634L28.1798 20.1444C29.1075 19.6745 29.8498 18.9056 30.2867 17.962C30.7237 17.0184 30.8299 15.955 30.5882 14.9435C30.3465 13.9321 29.771 13.0317 28.9546 12.3875C28.1382 11.7434 27.1286 11.3932 26.0886 11.3935Z"
+                      fill="black"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1024_6085">
+                      <rect width="36" height="36" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p>우리끼리<br />여행할래요</p>
+              </div>
+            </div>
+            <div class="click-search">검색하기</div>
+          </div>
+        </div>
+        <div class="main-content">
+          <!-- 섹션 1 입맛을 돋아주는 동백만의 특별한 여정 -->
+          <section class="box01">
+            <div class="txt">입맛을 돌아주는 동백만의 특별한 여정</div>
+            <nav class="sub">
+              <span class="item active">#당일여행</span>
+              <span class="item">#당일맛기행</span>
+              <span class="item">#숙박맛기행</span>
+              <span class="item">#기차여행</span>
+              <span class="item">#제주여행</span>
+              <span class="item">#울릉도</span>
+              <span class="item">#해외여행</span>
+            </nav>
+            <div class="contents">
+              <ul class="card-list">
+                <!-- 카드 1 -->
+                <li class="content-card">
+                  <div class="img-wrap">
+                    <img src="/img/img_01.png" alt="이미지1" />
+                    <div class="img-side-overlay">
+                      <span class="prod-title"
+                        >[신안 섬티아고]순례자길 코스 ★힐링여행</span
+                      >
+                      <span class="prod-price">295,000원~</span>
+                    </div>
+                  </div>
+                  <div class="info">
+                    <span class="tag item">
+                      <img
+                        src="/img/icon/coupon.png"
+                        alt="쿠폰 아이콘"
+                        class="coupon-icon"
+                      />
+                      <span class="coupon-text">쿠폰</span
+                      ><span class="benefit-text">혜택</span>
+                    </span>
+                    <span class="desc item">
+                      신암 섬티아고 12사도 순례길+목포해상<br />
+                      케이블카+포레스트수목원
+                    </span>
+                    <div class="price-column">
+                      <span class="old">395,000원</span>
+                      <span class="new">295,000원~</span>
+                    </div>
+                  </div>
+                </li>
+                <!-- 카드 2 -->
+                <li class="content-card">
+                  <div class="img-wrap">
+                    <img src="/img/img_02.png" alt="이미지2" />
+                    <div class="img-side-overlay">
+                      <span class="prod-title">[경상북도]여행지원특가 ★자유만끽</span>
+                      <span class="prod-price">60,000원~</span>
+                    </div>
+                  </div>
+                  <div class="info">
+                    <span class="tag item">
+                      <img
+                        src="/img/icon/coupon.png"
+                        alt="쿠폰 아이콘"
+                        class="coupon-icon"
+                      />
+                      <span class="coupon-text">쿠폰</span
+                      ><span class="benefit-text">혜택</span>
+                    </span>
+                    <span class="desc item">
+                      1박2일 60,000 기부로 피어나는 경북 착한 여행!<br />
+                      영덕 창포말 등대/강구항+안동 도산서원+영양마을
+                      케이블카+포레스트수목원
+                    </span>
+                    <div class="price-column">
+                      <span class="old">90,000원</span>
+                      <span class="new">60,000원~</span>
+                    </div>
+                  </div>
+                </li>
+                <!-- 카드 3 -->
+                <li class="content-card">
+                  <div class="img-wrap">
+                    <img src="/img/img_03.png" alt="이미지3" />
+                    <div class="img-side-overlay">
+                      <span class="prod-title">[남도]맛기행 패키지 ★다과무료제공</span>
+                      <span class="prod-price">275,000원~</span>
+                    </div>
+                  </div>
+                  <div class="info">
+                    <span class="tag item">
+                      <img
+                        src="/img/icon/coupon.png"
+                        alt="쿠폰 아이콘"
+                        class="coupon-icon"
+                      />
+                      <span class="coupon-text">쿠폰</span
+                      ><span class="benefit-text">혜택</span>
+                    </span>
+                    <span class="desc item">
+                      남도맛기행(장흥삼합+풍천장어구이+특한정식)<br />
+                      편백나무숲+선운사+다산초당길
+                    </span>
+                    <div class="price-column">
+                      <span class="old">300,000원</span>
+                      <span class="new">275,000원~</span>
+                    </div>
+                  </div>
+                </li>
+                <!-- 카드 4 -->
+                <li class="content-card">
+                  <div class="img-wrap">
+                    <img src="/img/img_04.png" alt="이미지4" />
+                    <div class="img-side-overlay">
+                      <span class="prod-title">[남원&순창]힐링 투어 ★ 족욕체험포함</span>
+                      <span class="prod-price">29,000원~</span>
+                    </div>
+                  </div>
+                  <div class="info">
+                    <span class="tag item">
+                      <img
+                        src="/img/icon/coupon.png"
+                        alt="쿠폰 아이콘"
+                        class="coupon-icon"
+                      />
+                      <span class="coupon-text">쿠폰</span
+                      ><span class="benefit-text">혜택</span>
+                    </span>
+                    <span class="desc item">
+                      남원&순창 힐링투어(고추장불고기+간장게장)<br />
+                      아티나카페+광한루원+순창 채계산출렁다리
+                    </span>
+                    <div class="price-column">
+                      <span class="old">59,000원</span>
+                      <span class="new">29,000원~</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- 섹션 2 동백여행사 베스트 기획전 -->
+          <section class="box02">
+            <div class="txt">동백여행사 베스트 기획전</div>
+            <ul class="best-list">
+              <!-- 카드 1 -->
+              <li>
+                <a href="#">
+                  <div class="best-img-box">
+                    <img src="img/img_05.png" alt="상하이 야경맛집" />
+                    <div class="img-text">
+                      <span class="text-place">상하이 야경맛집</span>
+                      <span class="text-desc">황포강유람선+맛집투어</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <!-- 카드 2 -->
+              <li>
+                <a href="#">
+                  <div class="best-img-box">
+                    <img src="img/img_06.png" alt="제주도 오감만족" />
+                    <div class="img-text">
+                      <span class="text-place">제주도 오감만족</span>
+                      <span class="text-desc">무지개 해안도로+요트투어</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <!-- 카드 3 -->
+              <li>
+                <a href="#">
+                  <div class="best-img-box">
+                    <img src="img/img_07.png" alt="울릉도 럭키비키" />
+                    <div class="img-text">
+                      <span class="text-place">울릉도 럭키비키</span>
+                      <span class="text-desc">독도관광+후포크루즈</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <!-- 카드 4 -->
+              <li>
+                <a href="#">
+                  <div class="best-img-box">
+                    <img src="img/img_08.png" alt="비금도 수국구경" />
+                    <div class="img-text">
+                      <span class="text-place">비금도 수국구경</span>
+                      <span class="text-desc">수국공원+포레스트수목원</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <!-- 카드 5 -->
+              <li>
+                <a href="#">
+                  <div class="best-img-box">
+                    <img src="img/img_09.png" alt="목포맛기행" />
+                    <div class="img-text">
+                      <span class="text-place">목포맛기행</span>
+                      <span class="text-desc">해상케이블카+신안퍼플교</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <!-- 카드 6 -->
+              <li>
+                <a href="#">
+                  <div class="best-img-box">
+                    <img src="img/img_10.png" alt="남도맛기행" />
+                    <div class="img-text">
+                      <span class="text-place">남도맛기행</span>
+                      <span class="text-desc">선운사+특한정식</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <!-- 카드 7 -->
+              <li>
+                <a href="#">
+                  <div class="best-img-box">
+                    <img src="img/img_11.png" alt="베트남 힐링맛집 " />
+                    <div class="img-text">
+                      <span class="text-place">베트남 힐링맛집 </span>
+                      <span class="text-desc">풍등체험+야시장투어</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <!-- 필요시 더 추가 -->
+            </ul>
+          </section>
+
+          <!-- 섹션 3 테마 여행 -->
+          <section class="box03">
+            <div class="title">테마 여행은 동백이지</div>
+            <nav class="sub">
+              <ul class="sub-list">
+                <li><a href="#" class="item active">#당일버스여행</a></li>
+                <li><a href="#" class="item">#숙박버스여행</a></li>
+                <li><a href="#" class="item">#기차여행</a></li>
+                <li><a href="#" class="item">#섬여행</a></li>
+                <li><a href="#" class="item">#해외여행</a></li>
+              </ul>
+            </nav>
+            <div class="content">
+              <nav class="location">
+                <ul class="location-list">
+                  <li class="item selected">#보라빛 향기_고창</li>
+                  <li class="item">#여유를 즐기는_공주</li>
+                  <li class="item">#한국인은 밥심_여주</li>
+                  <li class="item">#마음이 시원해지는_아산</li>
+                  <li class="item">#진정한 쉼이 필요할때_김포</li>
+                  <li class="item">#눈을 즐겁고 입을 즐기고_예산</li>
+                </ul>
+              </nav>
+              <div class="left">
+                <div class="image-box">
+                  <img src="img/img_12.png" alt="라벤더 밭" />
+                </div>
+                <div class="image-desc-box">나를 설레게 하는 힐링의 도시! 고창 &gt;</div>
+              </div>
+              <div class="right">
+                <div class="frame">
+                  <div class="title-main">감성, 여유, 인생샷 3단 콤보! 완벽한 여행지</div>
+                  <div class="sub-title lavender-row">
+                    <img
+                      src="img/icon/flower.png"
+                      alt="라벤더 아이콘"
+                      class="lavender-icon"
+                    />
+                    <span>라벤더 향 가득 설레임 고창</span>
+                  </div>
+                  <div class="font-desc">
+                    <span
+                      >보랏빛 물결이 넘실대는 고창에서, 햇살을 머금은 라벤더 향기가 온몸을
+                      감싸는 순간!</span
+                    >
+                    <span>드넓은 정원 속을 거닐며 은은한 향기에 취해보세요.</span>
+                  </div>
+                  <ul class="item-group">
+                    <li class="item1">
+                      <div class="item-cell">
+                        <img src="img/img_13.png" alt="고창" class="item-thumb" />
+                        <div class="item-info">
+                          <span class="item-title">[동백추천상품] 고창 당일</span>
+                          <span class="item-tags"
+                            >#보라빛향기 #메밀꽃밭 #운곡람습지 #힐링형</span
+                          >
+                          <span class="item-price">40,000원~</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="item1">
+                      <div class="item-cell">
+                        <img src="img/img_14.png" alt="고창" class="item-thumb" />
+                        <div class="item-info">
+                          <span class="item-title"
+                            >[동백팩 1.0] 고창 시티버스 투어 당일</span
+                          >
+                          <span class="item-tags">#고창읍성 #고인돌밀집지역 #관광형</span>
+                          <span class="item-price">10,000원~</span>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- 고객 후기 -->
+          <div class="box04">
+            <div class="txt">
+              <div class="title">
+                <div class="text-wrapper">고객의 소중한 여행 후기</div>
+              </div>
+              <div class="more">더보기 &rarr;</div>
+            </div>
+            <div class="contents">
+              <div class="content">
+                <img class="img-2" src="img/review-item-1.png" />
+                <div class="text">
+                  <p class="p">
+                    만족스러웠던 여행! 패키지 여행이 이렇게<br />편하고 좋은건지 몰랐네요!
+                  </p>
+                  <div class="text-wrapper-2">[출발확정]대만 4 박6일 ★4.8(386)</div>
+                </div>
+              </div>
+              <div class="content">
+                <img class="img-2" src="img/review-item-2.png" />
+                <div class="text">
+                  <p class="p">
+                    니모와 함께 스노클링을 하니 시간<br />가는줄 모르고 놀다왔네요!
+                  </p>
+                  <div class="text-wrapper-2">[스위트룸UP] 상하이 VIP ★4.8(398)</div>
+                </div>
+              </div>
+              <div class="content">
+                <img class="dongbaektour" src="img/review-item-3.png" />
+                <div class="text">
+                  <p class="p">
+                    처음 가보는 몽골이여서 걱정도 많았는데 <br />친구들이랑 잘 선택한거
+                    같아요!
+                  </p>
+                  <div class="text-wrapper-2">[출발확정/관광]★4.8(137)</div>
+                </div>
+              </div>
+              <div class="content">
+                <img class="img-2" src="img/review-item-4.png" />
+                <div class="text">
+                  <p class="p">
+                    치앙마이가 주는 특유의 느낌이 좋았어요<br />현지인 생활에
+                    만족했습니다.
+                  </p>
+                  <div class="text-wrapper-2">[가이드] 치앙마이 6박7일 ★4.7(950)</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
+      <footer class="footer">
+        <div class="footer-wrap">
+          <div class="footer-top">
+            <div class="footer-notice">
+              <span>알려드려요.</span>
+              <ul>
+                <li>
+                  <p>동백여행사 승차장소 안내</p>
+                  <p>2024-09-04</p>
+                </li>
+                <li>
+                  <p>카카오톡 플러스친구</p>
+                  <p>2024-05-22</p>
+                </li>
+                <li>
+                  <p>현금영수증 발급</p>
+                  <p>2024-06-22</p>
+                </li>
+                <li>
+                  <p>안전한 여행을 위한 안내</p>
+                  <p>2021-02-24</p>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-help">
+              <span>도와드릴까요?</span>
+              <div class="help-content">
+                <div class="help-call">
+                  <img src="img/icon/call.png" alt="전화" />
+                  <p>동백여행사 대표번호</p>
+                </div>
+                <span>02-2233-3500</span>
+                <p>
+                  운영시간 : 평일 09시~18시 (토 15시까지)<br />
+                  일요일 및 공휴일은 휴무입니다.
+                </p>
+              </div>
+            </div>
+            <div class="footer-money">
+              <span>입금안내</span>
+              <div class="money-bank">
+                <img src="img/bank-nh.png" alt="농협" />
+                <span>2233-3500-08</span>
+                <p>예금주 : 주식회사 동백여행사</p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-mid">
+            <ul>
+              <li>회사소개</li>
+              <li>오시는길</li>
+              <li>이용약관</li>
+              <li>여행약관</li>
+              <li><p>개인정보처리방침</p></li>
+              <li>고객센터</li>
+            </ul>
+          </div>
+          <div class="footer-bottom">
+            <div class="company-copy">
+              <span>
+                (주)동백여행사<br />
+                서울시 동대문구 왕산로 71 바인르미에르 201호 (용두동 130-4 바인르미에르
+                201호), 02577(우)
+              </span>
+              <p>Copyrightⓒ 2025. All Right Reserved by Dong Baek Tour Co.</p>
+            </div>
+            <div class="company-info">
+              <div class="info-left">
+                <span>대표이사 :</span>
+                <span>팩스번호 :</span>
+                <span>사업자등록번호 :</span>
+                <span>통신판매업신고 :</span>
+              </div>
+              <div class="info-right">
+                <span>민정애</span>
+                <span>02-2233-3525</span>
+                <span>169-88-00103</span>
+                <span>제2015-서울 동대문-0708호</span>
+              </div>
+            </div>
+            <img src="img/award.png" alt="상장" />
+          </div>
+        </div>
+      </footer>
     </div>
 
     <!-- modal menu -->
